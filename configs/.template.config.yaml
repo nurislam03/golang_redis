@@ -6,9 +6,9 @@ server:
 
 database:
   driver: mongodb
-  uri: mongodb://settlement:settlement@localhost:27017/?authSource=alpha
-  name: alpha
-
+  uri: mongodb://template:template@localhost:27017/?authSource=beta
+  name: beta
+  
 log:
   level: info
   text_logging: false
