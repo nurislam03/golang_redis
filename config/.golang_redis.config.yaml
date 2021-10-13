@@ -1,0 +1,14 @@
+server:
+  port: 9000
+  read_timeout: 30
+  write_timeout: 30
+  idle_timeout: 30
+
+database:
+  driver: mongodb
+  uri: mongodb://settlement:settlement@localhost:27017/?authSource=alpha
+  name: alpha
+
+log:
+  level: info
+  text_logging: false
