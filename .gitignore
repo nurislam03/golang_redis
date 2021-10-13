@@ -40,6 +40,7 @@ configs/.env
 .envrc
 configs/.template.*
 configs/local.*
+template.config.yaml
 
 logs/
 build/*
