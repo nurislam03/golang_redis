@@ -4,7 +4,7 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/nurislam03/template/pkg/helpmate"
+	"github.com/nurislam03/golang_redis/pkg/helpmate"
 )
 
 var (

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/nurislam03/template/cmd"
+	"github.com/nurislam03/golang_redis/cmd"
 )
 
 func main() {

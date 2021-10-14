@@ -6,7 +6,7 @@ import (
 
 	"github.com/kamva/mgm/v3"
 
-	"github.com/nurislam03/template/pkg/dbconn"
+	"github.com/nurislam03/golang_redis/pkg/dbconn"
 )
 
 type Seed struct{}

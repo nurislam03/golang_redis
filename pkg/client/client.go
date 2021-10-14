@@ -11,7 +11,7 @@ import (
 	"github.com/gojek/heimdall/v7"
 	"github.com/gojek/heimdall/v7/httpclient"
 
-	"github.com/nurislam03/template/pkg/logging"
+	"github.com/nurislam03/golang_redis/pkg/logging"
 )
 
 func Client() *httpclient.Client {

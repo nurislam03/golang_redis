@@ -4,13 +4,13 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/nurislam03/template/data/models"
+	"github.com/nurislam03/golang_redis/data/models"
 
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/render"
 	validation "github.com/go-ozzo/ozzo-validation/v4"
-	"github.com/nurislam03/template/pkg/helpmate"
-	"github.com/nurislam03/template/pkg/response"
+	"github.com/nurislam03/golang_redis/pkg/helpmate"
+	"github.com/nurislam03/golang_redis/pkg/response"
 )
 
 type createLimitBodyPld struct {

@@ -3,7 +3,7 @@ package limit
 import (
 	"net/http"
 
-	"github.com/nurislam03/template/pkg/response"
+	"github.com/nurislam03/golang_redis/pkg/response"
 )
 
 var (

@@ -14,7 +14,7 @@ import (
 	"github.com/golang-migrate/migrate/v4/database/mongodb"
 	_ "github.com/golang-migrate/migrate/v4/source/file"
 	"github.com/kamva/mgm/v3"
-	"github.com/nurislam03/template/pkg/dbconn"
+	"github.com/nurislam03/golang_redis/pkg/dbconn"
 	"github.com/spf13/viper"
 	"go.mongodb.org/mongo-driver/mongo"
 )

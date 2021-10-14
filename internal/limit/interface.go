@@ -1,7 +1,7 @@
 package limit
 
 import (
-	"github.com/nurislam03/template/data/models"
+	"github.com/nurislam03/golang_redis/data/models"
 )
 
 // LimitStore represents limit repository interface

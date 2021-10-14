@@ -2,7 +2,7 @@ package repos
 
 import (
 	"github.com/kamva/mgm/v3"
-	"github.com/nurislam03/template/data/models"
+	"github.com/nurislam03/golang_redis/data/models"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/mongo"
 )

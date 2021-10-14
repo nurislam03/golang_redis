@@ -8,7 +8,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/nurislam03/template/pkg/version"
+	"github.com/nurislam03/golang_redis/pkg/version"
 )
 
 const versionDesc = `

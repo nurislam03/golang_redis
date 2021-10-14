@@ -9,7 +9,7 @@ import (
 	"github.com/go-chi/docgen"
 	"github.com/spf13/cobra"
 
-	"github.com/nurislam03/template/internal/api"
+	"github.com/nurislam03/golang_redis/internal/api"
 )
 
 var (
@@ -62,7 +62,7 @@ func genRoutesJSONDoc(router *chi.Mux) {
 func genRoutesMarkdownDoc(router *chi.Mux) {
 	fmt.Print("generating routes markdown file: ")
 	md := docgen.MarkdownRoutesDoc(router, docgen.MarkdownOpts{
-		ProjectPath: "github.com/nurislam03/template",
+		ProjectPath: "github.com/nurislam03/golang_redis",
 		Intro:       "template REST API.",
 	})
 	if err := ioutil.WriteFile("routes.md", []byte(md), 0644); err != nil {

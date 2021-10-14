@@ -9,10 +9,10 @@ import (
 	"github.com/go-chi/render"
 	"github.com/sirupsen/logrus"
 
-	"github.com/nurislam03/template/internal/limit"
-	"github.com/nurislam03/template/pkg/dbconn"
-	"github.com/nurislam03/template/pkg/logging"
-	"github.com/nurislam03/template/pkg/response"
+	"github.com/nurislam03/golang_redis/internal/limit"
+	"github.com/nurislam03/golang_redis/pkg/dbconn"
+	"github.com/nurislam03/golang_redis/pkg/logging"
+	"github.com/nurislam03/golang_redis/pkg/response"
 )
 
 // New configures application resources and routes.

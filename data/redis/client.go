@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/nurislam03/template/pkg/logging"
+	"github.com/nurislam03/golang_redis/pkg/logging"
 
 	rediscl "github.com/go-redis/redis/v8"
 	"github.com/spf13/viper"

@@ -2,7 +2,7 @@ package limit
 
 import (
 	"github.com/go-chi/chi/v5"
-	"github.com/nurislam03/template/data/repos"
+	"github.com/nurislam03/golang_redis/data/repos"
 )
 
 // API provides application resources and handlers.

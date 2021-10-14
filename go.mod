@@ -1,4 +1,4 @@
-module github.com/nurislam03/template
+module github.com/nurislam03/golang_redis
 
 go 1.17
 
