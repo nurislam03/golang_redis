@@ -1,2 +1,2 @@
-# golang_redis
+# template
 An example of uses of Redis with go (Golang)
