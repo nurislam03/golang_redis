@@ -1,9 +1,11 @@
 package main
 
 import (
-	"github.com/nurislam03/template/cmd"
+	"github.com/joho/godotenv"
+	"github.com/nurislam03/golang_redis/cmd"
 )
 
 func main() {
-	cmd.Execute()
+	_ = godotenv.Load(".env")
+	cmd.RootCmd.Execute()
 }
